@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--GOOGLE FONTS(POPPINS)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+                <a href="index.html" class="nav__logo"> 
+                    <img src="images/odsw.png" alt="osayandedavid_logo">
+                </a>
+                <ul class="nav__menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="images/CV.pdf" class="btn btn-primary" download>
+                        <i class="uil uil-download-alt"></i> Download Cv</a></li>
+                        <!--link your cv-->
+                </ul>
+                <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+                
+                
+        </div>
+    </nav>
+
+    <!-------- ========= END OF NAVBAR  ======== ------->
+
+    <header >
+        <div class="container header__container">
+            <div class="header__left ">
+                <div>
+                     <h3>Hello there! i'm</h3>
+                        <h1> Osayande <br> David</h1>
+                        <p>Crafting digital dreams as a frontend web developer, Prompt Engineer, and Creative Visionary.
+                             I'm here to bring your ideas to vibrant digital life. 
+                            Let's connect to turn your visions into captivating online realities
+                        </p>
+                        <a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+                </div>
+            </div>
+
+            <div class="header__right ">
+                <div class="header__image">
+                    <img id="heroImg" src="./images/dave.png" alt="osayandedavid_image" >
+                </div>
+                <div class="header__right-bg"></div>
+                <ul class="header__socials">
+                    <li><a href="https://www.linkedin.com/in/david-osayande-7ba896198/" target="_blanck"><i class="uil uil-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Tranquildave" target="_blanck"><i class="uil uil-github-alt"></i></a></li>
+                    <li><a href="https://facebook.com" target="_blanck"><i class="uil uil-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--================== END OF HEADER =================-->
+    
+    <section id="companies">
+        <div class="container container__companies">
+            <span><img src="./images/uv.png" ></span>
+            <span><img src="./images/Dwh.png" ></span>
+            <span><img src="./images/black.png" ></span>
+            <span><img src="./images/xp.png" ></span> 
+            <span><img src="./images/check (2).png" ></span>
+            <span><img src="./images/sure.png" ></span>
+        </div>
+    </section>
+  <!--================== END OF COMPANIES =================-->
+
+    <section id="services">
+        <div class="container services__container">
+            <div class="service__left">
+                <h1>3+</h1>
+                <h4>Experience</h4>
+                <small>
+                    Unlocking digital solutions with a blend of HTML, CSS, and Javascript wizardry alongside WordPress mastery.
+                     From sleek responsive web designs to seamless coding, I tailor experiences to your brand. 
+                     Offering social media management and compelling content creation. 
+                     Let's digitalize your dreams, ideas and  innovate together.
+            </div>
+            <div class="service__right">
+                <h2>Web developer, Specialized in Digitalizing your brand and ideas</h2>
+                <div class="services__cards">
+                    <div class="services__card">
+                        <span class="services__card-icon "><i class=" uil uil-layers-alt"></i></span>
+                        <h5>Responsive Web Design</h5>
+                        <a href="#">Discover More <i class="uil uil-arrow-right"></i></a>
+                    </div>
+                    <div class="services__card">
+                        <span class="services__card-icon "><i class="uil uil-layers-alt"></i></span>
+                        <h5>Branding</h5>
+                        <a href="#">Discover More <i class="uil uil-arrow-right"></i></a>
+                    </div>
+                    <div class="services__card">
+                        <span class="services__card-icon "><i class="uil uil-layers-alt"></i></span>
+                        <h5>AI Integration </h5>
+                        <a href="#">Discover More <i class="uil uil-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+      <!--================== END OF SERVICES =================-->
+
+    <section id="portfolio">
+         <div class="container portfolio__container">
+             <div class="portfolio__head">
+                 <h2> Projects</h2>
+                 <div class="portfolio__head-right">
+                    <p>These are some of my projects below:
+                        consisting of my website where I write about technology and personal development to a
+                         web application that saves and delete playlist and other custom made website design. 
+                        And more will added cause I’m constantly learning to stay up to date. </p>
+                         <a href="#">EXplore More <i class="uit uit-corner-down-right"></i></a>
+                 </div>
+
+             </div>
+                <div class="portfolio__projects">
+                    <article class="portfolio__project">
+                        <span class="portfolio__project-image"><img src="./images/scdavewebhub.png" ></span>
+                        <div class="portfolio__cta">
+                            <a class="btn" href="#" target="_blank">Github</a>
+                            <a class="btn btn-primary" href="https://davewebhub.com/" target="_blank">Live Demo</a>
+                        </div>
+                    </article>
+                    <article class="portfolio__project">
+                        <span class="portfolio__project-image"><img src="./images/playlistApp.png" ></span>
+                        <div class="portfolio__cta">
+                            <a class="btn" href="https://github.com/Tranquildave/Playlist-App" target="_blank">Github</a>
+                            <a class="btn btn-primary" href="#" target="_blank">Live Demo</a>
+                        </div>
+                    </article>
+                    <article class="portfolio__project">
+                        <span class="portfolio__project-image"><img src="./images/spacex.png" ></span>
+                        <div class="portfolio__cta">
+                            <a class="btn" href="https://github.com/Tranquildave/SpaceX-clone" target="_blank">Github</a>
+                            <a class="btn btn-primary" href="#" target="_blank">Live Demo</a>
+                        </div>
+                    </article>
+                    <article class="portfolio__project">
+                        <span class="portfolio__project-image"><img src="./images/Osekitchen.png" ></span>
+                        <div class="portfolio__cta">
+                            <a class="btn" href="https://github.com/Tranquildave/Ose_kitchen-landing-page" target="_blank">Github</a>
+                            <a class="btn btn-primary" href="#" target="_blank">Live Demo</a>
+                        </div>
+                    </article>
+                </div>
+         </div>
+    </section>
+   <!--================== END OF PORTFOLIO =================-->
+
+<section id="testimonials">
+    <h2>What Some People Says</h2>
+        <p class="lead">
+            What few people I have encountered have to say about the brand and services
+        </p>
+        <div class=" container testimonials__container">
+            <!-- <article class="testimonials">
+                <p>
+                    "our company, we do ongoing research with our target audience. This includes 30-45 minute phone interviews. 
+                    It was difficult to conduct the interview, really listen, and ask good follow up questions
+                </p>
+                <div class="testimonial__clients">
+                    <span class="avatar">
+                        <img src="./images/avatar1.jpg" >
+                    </span>
+                    <div class="testimonial__name">
+                        <p><b>Chiamaka Vincent</b></p>
+                        <small>Teacher</small>
+                    </div>
+                </div>
+            </article> -->
+        
+        </div>
+    
+</section>
+
+ <!--================== END OF TESTIMONIALS=================-->
+
+ <section id="contact">
+  <div class="container contact__container">
+    <div class="contact__left">
+        <h2>Let's Talk</h2>
+        <p>Do you need assistance for your projects?
+            or you need to fix your website or create or any related issue? Feel free to contact me.
+        </p>
+
+        <ul class="contact__socials">
+            <li><a href="https://www.linkedin.com/in/david-osayande-7ba896198/" target="_blanck"><i class="uil uil-linkedin"></i></a></li>
+            <li><a href="https://github.com/Tranquildave" target="_blanck"><i class="uil uil-github-alt"></i></a></li>
+            <li><a href="https://facebook.com" target="_blanck"><i class="uil uil-facebook"></i></a></li>
+        </ul>
+    </div>
+
+    <form action="https://formspree.io/f/xgedgpbo" method="POST" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="email" placeholder="Your Email" required>
+        <textarea name="message"  rows="10" placeholder="Message" required></textarea>
+        <button id = "sendBtn" class = "btn" type="submit">Send <i class="uil uil-arrow-right"></i></button>
+    </form>
+  </div>
+
+ </section>
+
+
+<footer>
+   <small> copyright &copy; Osayande David. </small>
+</footer>
+   
+
+<script src="./testimonials.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
